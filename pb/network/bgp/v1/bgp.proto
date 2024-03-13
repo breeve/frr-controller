@@ -6,5 +6,5 @@ option go_package = 'gitlab.bj.sensetime.com/elementary/boson/boson-bgp-controll
 import "google/protobuf/empty.proto";
 
 service Hello {
-    rpc Hello() returns (google.protobuf.Empty) {}
+    rpc Hello(google.protobuf.Empty) returns (google.protobuf.Empty) {}
 }

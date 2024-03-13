@@ -2,3 +2,9 @@ syntax = "proto3";
 
 package sensetime.core.network.bgp.v1;
 option go_package = 'gitlab.bj.sensetime.com/elementary/boson/boson-bgp-controller/api/network/bgp/v1;bgp';
+
+import "google/protobuf/empty.proto";
+
+service Hello {
+    rpc Hello() returns (google.protobuf.Empty) {}
+}

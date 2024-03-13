@@ -28,7 +28,7 @@
 syntax = "proto3";
 
 // package frr;
-package sensetime.core.frr.v1;
+package sensetime.core.network.frr.v1;
 option go_package = 'gitlab.bj.sensetime.com/elementary/boson/boson-bgp-controller/api/frr/v1;frr';
 
 // Service specification for the FRR northbound interface.
